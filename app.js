@@ -1,7 +1,3 @@
-require("dotenv").config({ path: "./.env" });
-
-console.log(process.env.NODE_ENV);
-
 const http = require("http");
 const hostname = "127.0.0.1";
 const port = 3000;
